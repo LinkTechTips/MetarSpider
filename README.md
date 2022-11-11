@@ -1,6 +1,7 @@
 # MetarSpider
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/LinkTechTips/MetarSpider/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/LinkTechTips/json.svg)](https://github.com/LinkTechTips/MetarSpider/issues)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider?ref=badge_shield)
 # 关于
 本项目可以与[BetterFSD](https://github.com/LinkTechTips/BetterFSD)配合使用作为其METAR源，基于Java
 # 君子协议
@@ -10,3 +11,7 @@
 # 待实现功能
 * VATSIM Source
 * avt7 Source
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider?ref=badge_large)
