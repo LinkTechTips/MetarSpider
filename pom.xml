@@ -1,0 +1,69 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.LinkTechTips</groupId>
+    <artifactId>MetarSpider</artifactId>
+    <version>1.0.0</version>
+    <name>MetarSpider</name>
+    <description>A METAR Spider</description>
+    <url>https://github.com/LinkTechTips/MetarSpider</url>
+    <issueManagement>
+        <url>https://github.com/LinkTechTips/MetarSpider/issues</url>
+        <system>Github Issues</system>
+    </issueManagement>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/LinkTechTips/MetarSpider/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>
+                MIT License
+
+                Copyright (c) 2022 Yuheng Wu
+
+                Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the "Software"), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+
+                The above copyright notice and this permission notice shall be included in all
+                copies or substantial portions of the Software.
+
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                SOFTWARE.
+            </comments>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/LinkTechTips/MetarSpider</url>
+        <connection>scm:git:git://github.com/LinkTechTips/MetarSpider.git</connection>
+        <developerConnection>scm:git:git@github.com:LinkTechTips/MetarSpider.git</developerConnection>
+        <tag>master</tag>
+    </scm>
+    <developers>
+        <developer>
+            <email>3174327625@qq.com</email>
+            <name>Yuheng Wu</name>
+            <url>https://github.com/LinkTechTips</url>
+            <id>LinkTechTips</id>
+        </developer>
+    </developers>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+    </dependencies>
+</project>
