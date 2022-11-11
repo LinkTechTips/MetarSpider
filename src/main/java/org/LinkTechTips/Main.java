@@ -8,8 +8,6 @@ import java.net.URLConnection;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import static java.lang.Thread.*;
-
 public final class Main {
     public static void noaa() throws IOException {
         int bytesum = 0;
@@ -42,9 +40,30 @@ public final class Main {
         }
         System.out.println("Get NOAA METAR done!");
     }
+    public static void vatsim() throws IOException {
+        int bytesum = 0;
+        int byteread;
+        String fileUrl = "https://metar.vatsim.net/metar.php?id=*";
+        URL url = new URL(fileUrl);
+        URLConnection conn = url.openConnection();
+        InputStream inStream = conn.getInputStream();
+        try (FileOutputStream fs = new FileOutputStream(System.getProperty("user.dir") + "/metar_vatsim.txt")) {
+            System.out.println("Start get VATSIM METAR");
+            byte[] buffer = new byte[8192];
+            if ((byteread = inStream.read(buffer)) != -1) {
+                do {
+                    bytesum += byteread;
+                    System.out.println(bytesum);
+                    fs.write(buffer, 0, byteread);
+                } while ((byteread = inStream.read(buffer)) != -1);
+            }
+        }
+        System.out.println("Get VATSIM METAR done!");
+    }
     public static void main(String[] args) throws InterruptedException, IOException {
         while (true) {
             noaa();
+            vatsim();
             System.out.println("MetarSpider will be activated again in 30 minutes");
             Thread.sleep(1000 * 60 * 30);
         }
