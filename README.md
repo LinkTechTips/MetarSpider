@@ -3,7 +3,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/LinkTechTips/json.svg)](https://github.com/LinkTechTips/MetarSpider/issues)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FLinkTechTips%2FMetarSpider?ref=badge_shield)
 # 关于
-本项目可以与[BetterFSD](https://github.com/LinkTechTips/BetterFSD)配合使用作为其METAR源，基于Java
+本项目可以与[BetterFSD](https://github.com/LinkTechTips/BetterFSD)以及[BetterFSD-Java](https://github.com/LinkTechTips/BetterFSD-Java)配合使用作为其METAR源，基于Java
 # 君子协议
 本项目基于MIT协议开源 若要使用本项目 请给本项目一个star
 
